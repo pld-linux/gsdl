@@ -1,7 +1,6 @@
 #
 # TODO:
 # - add BRs,
-# - add polish desc,
 # - check if it's compile ;)
 # - finish all ;>
 # - wrong, see at packages, build gsdl with shared programs and libs
@@ -13,23 +12,35 @@ Version:	2.39
 Release:	0.1
 License:	GPL
 Group:		Applications/Utilities
-Source0:	http://prdownloads.sourceforge.net/greenstone/%{name}-%{version}-src.tgz
+Source0:	http://dl.sourceforge.net/greenstone/%{name}-%{version}-src.tgz
 Patch0:		%{name}-configure.patch
 URL:		http://www.greenstone.org/
+BuildRequires:	autoconf
+BuildRequires:	automake
 BuildRequires:	gdbm-devel
+BuildRequires:	gettext-devel
+BuildRequires:	libtool
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
 Greenstone is a suite of software which has the ability to serve
 digital library collections and build new collections. It provides
 a new way of organizing information and publishing it on the Internet
-or on CD-ROM. Greenstone is produced by the New Zealand Digital Library
-Project at the University of Waikato, and distributed in cooperation
-with UNESCO and the Human Info NGO. It is open-source software, available
-from http://greenstone.org/ under the terms of the GNU General Public
-License. 
+or on CD-ROM. Greenstone is produced by the New Zealand Digital
+Library Project at the University of Waikato, and distributed in
+cooperation with UNESCO and the Human Info NGO. It is open-source
+software, available from http://greenstone.org/ under the terms of the
+GNU General Public License. 
 
 %description -l pl
+Greenstone to pakiet oprogramowania daj±cy mo¿liwo¶æ serwowania
+zbiorów biblioteki cyfrowej oraz tworzenie nowych zbiorów. Udostêpnia
+now± metodê organizowania informacji i publikowania jej w Internecie
+lub na p³ytach CD-ROM. Greenstone jest tworzony przez New Zealand
+Digital Library Project (nowozelandzki projekt cyfrowej biblioteki) i
+rozpowszechniany w kooperacji z UNESCO oraz Human Info NGO. Jest to
+wolne oprogramowanie, dostêpne pod http://greenstone.org/ na warunkach
+Powszechnej Licencji Publicznej GNU (GPL).
 
 %prep
 %setup -q -n %{name}
