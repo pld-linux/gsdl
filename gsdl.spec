@@ -13,6 +13,7 @@ Release:	0.1
 License:	GPL
 Group:		Applications/Utilities
 Source0:	http://dl.sourceforge.net/greenstone/%{name}-%{version}-src.tgz
+# Source0-md5:	83e3900810f62fca8ab2bc8c102d211a
 Patch0:		%{name}-configure.patch
 URL:		http://www.greenstone.org/
 BuildRequires:	autoconf
