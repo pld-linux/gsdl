@@ -1,0 +1,29 @@
+--- gsdl/configure.in~	Mon Apr 21 00:22:48 2003
++++ gsdl/configure.in	Mon Apr 21 00:24:52 2003
+@@ -166,7 +166,7 @@
+ AC_MSG_CHECKING(for HP-UX needing gmalloc)
+ if test "`(uname -s) 2> /dev/null`" = 'HP-UX'; then
+   AC_MSG_RESULT(yes)
+-  LIBOBJS="$LIBOBJS gmalloc.o"
++  AC_LIBOBJ="$AC_LIBOBJ gmalloc.o"
+   AC_DEFINE(HAVE_VALLOC)
+ else
+   AC_MSG_RESULT(no)
+@@ -179,7 +179,7 @@
+ # ---------------------------------------------------------------------------
+ if test "$ac_cv_func_alloca" = 'no'; then
+ dnl    support functions for alloca.c
+-  LIBOBJS="$LIBOBJS xmalloc.o error.o"
++  AC_LIBOBJ="$AC_LIBOBJ xmalloc.o error.o"
+ fi
+ 
+ 
+@@ -358,7 +358,7 @@
+ # ---------------------------------------------------------------------------
+ if test "$ac_cv_func_alloca" = 'no'; then
+ dnl    support functions for alloca.c
+-  LIBOBJS="$LIBOBJS xmalloc.o error.o"
++  AC_LIBOBJ="$AC_LIBOBJ xmalloc.o error.o"
+ fi
+ 
+ # ---------------------------------------------------------------------------
