@@ -15,6 +15,7 @@ Group:		Applications/Utilities
 Source0:	http://prdownloads.sourceforge.net/greenstone/%{name}-%{version}-src.tgz
 Patch0:		%{name}-configure.patch
 URL:		http://www.greenstone.org/
+BuildRequires:	gdbm-devel
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
