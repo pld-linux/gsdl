@@ -31,7 +31,7 @@ or on CD-ROM. Greenstone is produced by the New Zealand Digital
 Library Project at the University of Waikato, and distributed in
 cooperation with UNESCO and the Human Info NGO. It is open-source
 software, available from http://greenstone.org/ under the terms of the
-GNU General Public License. 
+GNU General Public License.
 
 %description -l pl
 Greenstone to pakiet oprogramowania daj±cy mo¿liwo¶æ serwowania
