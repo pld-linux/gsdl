@@ -4,6 +4,7 @@
 # - add polish desc,
 # - check if it's compile ;)
 # - finish all ;>
+# - hm, i see that it builds some libraries - do separate packages,
 #
 Summary:	Software to serve digital library collections
 Summary(pl):	Program do obs³ugi cyfrowych bibliotek danych
