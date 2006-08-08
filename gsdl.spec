@@ -45,7 +45,7 @@ Powszechnej Licencji Publicznej GNU (GPL).
 
 %prep
 %setup -q -n %{name}
-%patch -p1
+%patch0 -p1
 
 %build
 rm -f missing
