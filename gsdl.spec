@@ -6,7 +6,7 @@
 # - wrong, see at packages, build gsdl with shared programs and libs
 #
 Summary:	Software to serve digital library collections
-Summary(pl):	Program do obs³ugi cyfrowych bibliotek danych
+Summary(pl.UTF-8):   Program do obsÅ‚ugi cyfrowych bibliotek danych
 Name:		gsdl
 Version:	2.39
 Release:	0.1
@@ -33,14 +33,14 @@ cooperation with UNESCO and the Human Info NGO. It is open-source
 software, available from http://greenstone.org/ under the terms of the
 GNU General Public License.
 
-%description -l pl
-Greenstone to pakiet oprogramowania daj±cy mo¿liwo¶æ serwowania
-zbiorów biblioteki cyfrowej oraz tworzenie nowych zbiorów. Udostêpnia
-now± metodê organizowania informacji i publikowania jej w Internecie
-lub na p³ytach CD-ROM. Greenstone jest tworzony przez New Zealand
+%description -l pl.UTF-8
+Greenstone to pakiet oprogramowania dajÄ…cy moÅ¼liwoÅ›Ä‡ serwowania
+zbiorÃ³w biblioteki cyfrowej oraz tworzenie nowych zbiorÃ³w. UdostÄ™pnia
+nowÄ… metodÄ™ organizowania informacji i publikowania jej w Internecie
+lub na pÅ‚ytach CD-ROM. Greenstone jest tworzony przez New Zealand
 Digital Library Project (nowozelandzki projekt cyfrowej biblioteki) i
 rozpowszechniany w kooperacji z UNESCO oraz Human Info NGO. Jest to
-wolne oprogramowanie, dostêpne pod http://greenstone.org/ na warunkach
+wolne oprogramowanie, dostÄ™pne pod http://greenstone.org/ na warunkach
 Powszechnej Licencji Publicznej GNU (GPL).
 
 %prep
