@@ -6,7 +6,7 @@
 # - wrong, see at packages, build gsdl with shared programs and libs
 #
 Summary:	Software to serve digital library collections
-Summary(pl.UTF-8):   Program do obsługi cyfrowych bibliotek danych
+Summary(pl.UTF-8):	Program do obsługi cyfrowych bibliotek danych
 Name:		gsdl
 Version:	2.39
 Release:	0.1
