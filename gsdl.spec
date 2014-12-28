@@ -19,7 +19,7 @@ URL:		http://www.greenstone.org/
 BuildRequires:	autoconf
 BuildRequires:	automake
 BuildRequires:	gdbm-devel
-BuildRequires:	gettext-devel
+BuildRequires:	gettext-tools
 BuildRequires:	libtool
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
